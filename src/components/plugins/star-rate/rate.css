@@ -1,0 +1,20 @@
+@import '../../../index.css';
+/* Rate Pannel */
+
+.rate-num span{
+  color: rgb(248, 232, 9);
+}
+
+.rate-panel {
+    margin: 10px 5px;
+}
+
+.rate-panel i {
+  font-size: 25px;
+  color: rgb(248, 232, 9);
+  margin: 0px 5px;
+}
+
+.rate-panel i:hover {
+  color: rgb(252, 255, 215);
+}

@@ -1,0 +1,56 @@
+@import '../../../index.css';
+
+.ct-popup-box {
+    min-height: 60vh;
+    width: 60vw;
+    background: linear-gradient(to right, var(--highlightColor), blueviolet);
+    box-shadow: 0px 5px 20px var(--shadeColor);
+    border-radius: 5px;
+    position: fixed;
+    z-index: 99;
+    top: 50%;
+    left: 20%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition: .6s;
+}
+
+.ct-close {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.form-col {
+    padding: 10px;
+    flex-basis: 45%;
+}
+
+.form-col video {
+    height: 50vh;
+    object-fit: cover;
+}
+
+.ct-flex-br {
+    flex-basis: .1%;
+    background-color: white;
+    border-radius: 20px;
+    color: white;
+    height: 40vh;
+    width: 2%;
+}
+
+.ct-input-padding-fix {
+    margin: 0px 15px;
+}
+
+select {
+    height: 120px;
+}
+
+option {
+    height: 120px;
+}

@@ -1,0 +1,54 @@
+
+@import '../../../index.css';
+
+.ct-slider-container {
+    min-height: 90vh;
+    width: 100%;
+    background: linear-gradient(to right bottom, var(--highlighFontColor), var(--secondaryColor));
+    position: relative;
+}
+
+.ct-slider-header {
+    width: 100%;
+    height: calc(90vh - 200px); 
+    
+}
+
+.slider-img {
+    width: 30%;
+    height: 100%;
+    background: brown;
+    border-right: 100px solid var(--secondaryColor);
+    border-bottom: 480px solid transparent;
+    background: url('wall.jpg');
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+}
+
+/* .slider-img img {
+    width: 120%;
+    height: 70vh;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+
+} */
+
+.slider-content {
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(to right, var(--secondaryColor), #47bfff);;
+    padding:40px 90px;
+    
+}
+
+.ct-slider-footer {
+    height: 200px;
+    width: 100%;
+    background-color: var(--highlighFontColor);
+    border-bottom: 2px solid rgb(39, 68, 197);
+    position: absolute;
+    bottom: 0px;
+}
+
+

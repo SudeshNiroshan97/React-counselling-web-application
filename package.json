@@ -1,0 +1,63 @@
+{
+  "name": "commercial-v7",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "@syncfusion/ej2-react-calendars": "^19.1.55",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "create-react-app": "^4.0.3",
+    "date-fns": "^2.18.0",
+    "fbemitter": "^3.0.0",
+    "jspdf": "^2.3.1",
+    "query-string": "^6.14.0",
+    "react": "^17.0.1",
+    "react-chatbot-kit": "^1.1.20",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-dom": "^17.0.1",
+    "react-emoji": "^0.5.0",
+    "react-icons": "^4.2.0",
+    "react-nice-dates": "^3.0.7",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-scroll": "^1.8.2",
+    "react-scroll-to-bottom": "^4.1.0",
+    "react-session-api": "^1.1.0",
+    "simple-peer": "^9.10.0",
+    "socket.io-client": "^3.1.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

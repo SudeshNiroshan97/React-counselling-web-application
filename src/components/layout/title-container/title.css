@@ -1,0 +1,52 @@
+@import '../../../index.css';
+
+.container-title {
+    min-height: 30px;
+    width: 100%;
+    background-color: var(--highlighFontColor);
+    padding: 2px 60px;
+    text-align: left;
+    
+}
+
+.container-title span {
+    color: var(--secondaryFontColor);
+}
+
+
+.ct-braker {
+    color: var(--highlightColor2);
+    font-size: 20px;
+}
+
+.lava-text {
+    
+     background: url(http://www.textures4photoshop.com/tex/thumbs/lava-magma-seamless-texture-free-download-70.jpg) no-repeat center center;
+    
+     background-size: cover;
+    
+     color: #fff;
+    
+     -webkit-text-fill-color: transparent;
+    
+     -webkit-background-clip: text;
+    
+     -moz-background-clip:text;
+    
+     background-clip:text; 
+    
+    
+     font-size: var(--empasisFont);
+     font-weight: bolder;
+    
+     padding:0;
+    
+     margin:0;
+    
+     text-align:center;
+    
+     -webkit-text-stroke: 3px var(--highlightColor);
+    
+    }
+
+    

@@ -1,0 +1,141 @@
+@import '../../../index.css';
+
+.ct-card {
+    background: linear-gradient( to right, var(--alternateColor), var(--secondaryColor));
+    width: 25%;
+    max-height: 200px;
+    box-shadow: 0px 10px 20px black;
+    text-align: left;
+    margin: 10px;
+}
+
+.ct-card-head {
+    padding: 10px;
+    padding-bottom: 0;
+    line-height: 0px;
+
+}
+
+
+
+.ct-card-body {
+    padding: 10px;
+    padding-top: 0;
+}
+
+.ct-card-body p {
+    text-align: left;
+}
+
+
+
+/* Item Card */
+
+.ct-card-item {
+    background: linear-gradient( to right, var(--alternateColor), var(--secondaryColor));
+    width: 48%;
+    max-height: 500px;
+    box-shadow: 0px 10px 20px black;
+    text-align: left;
+    margin: 10px;
+    display: flex;
+
+}
+
+.ct-card-side:nth-child(1) {
+    height: 500px;
+    width: 100%;
+    flex-grow: 1;
+    flex: 2;
+    background: linear-gradient(to right, var(--primaryFontColor), #555555)
+    
+}
+
+.ct-card-side:nth-child(1) img {
+    /* margin-top: 20px; */
+    width: 100%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.ct-card-side:nth-child(2) {
+    height: 500px;
+    width: 100%;
+    flex: 3;
+    flex-grow: 2;
+    
+}
+
+@media screen and (max-width: 1018px){
+    .ct-card-item {
+        width: 100%;
+    }
+}
+
+
+/* Special Card */
+
+.ct-card-normal {
+    width: 20%;
+    min-height: 180px;
+}
+
+.ct-card-special {
+    width: 20%;
+    min-height: 180px;
+    position: relative;
+    top: -8px;
+}
+
+.ct-card-profile {
+    min-height: 400px;
+    background-color: var(--highlighFontColor);
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px var(--shadeColor);
+    margin: 30px 20px;
+    line-height: 18px;
+}
+
+
+
+.ct-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url('147142.png');
+}
+
+
+
+.ct-cardsp-body {
+    position: relative;
+    top: -40px;
+    padding: 10px;
+}
+
+.ct-cardsp-body-normal {
+    padding: 10px;
+}
+
+.ct-card-img {
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+}
+
+.ct-card-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Common */
+
+.ct-simple-tag {
+    padding: 2px 10px;
+    background-color: var(--highlightColor2);
+    border-radius: 20px;
+}

@@ -1,0 +1,29 @@
+
+.fixed-panel {
+    height: 80px;
+    width: 150px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.ct-fixed {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    /* right: 10px;
+    bottom: 10px; */
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.ct-fixed:hover {
+    border: 1px solid white;
+} 
+
+.ct-fixed i {
+    font-size: 25px;
+}

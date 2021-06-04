@@ -1,0 +1,164 @@
+@import '../../../index.css';
+
+.container-dashboard {
+    height: 150vh;
+    width: 100%;
+}
+
+.container-dashboard .side-panel {
+    flex: 0.4;
+    height: 100%;
+    background-color: var(--darkColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.side-panel .panel-head {
+    flex: 1;
+    width: 100%;
+}
+
+.side-panel .panel-items {
+    background-color: #303536;
+    flex: 6;
+    width: 100%;
+}
+
+.item {
+    height: 100px;
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 20px 5px;
+    background-color: #3e4547;
+    background: linear-gradient(to left, #333636, #575f61);
+    transition: .6s ease-in-out;
+    cursor: pointer;
+
+}
+
+.item:hover {
+    background: linear-gradient(to left, #4c5050, #677072);
+}
+
+.item i {
+    font-size: 35px;
+    color: #859092;
+}
+
+.item:hover i {
+    color: #e5eaeb;
+}
+
+.item small {
+    color: #859092;
+    transition: .6s;
+}
+
+.item:hover small {
+    color: #e5eaeb;
+}
+
+.side-panel .panel-footer {
+    background-color: var(--highlighFontColor);
+    flex: 1;
+    width: 100%;
+    border-top-left-radius: 10px;
+}
+
+.container-dashboard .main-container {
+    flex: 5;
+    height: 100%;
+    background-color: cadetblue;
+}
+
+.main-container .intro {
+    min-height: 50vh;
+    width: 100%;
+    background-color: var(--primaryColor);
+}
+
+.main-container .user-records {
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* .main-container .user-history {
+    min-height: 40vh;
+    width: 100%;
+    background-color: var(--primaryColor);
+}  */
+
+
+/* Tab */
+
+.ct-tabview {
+    
+}
+
+.ct-tabview div {
+    display: flex;
+}
+
+.ct-tabview .tab-nav {
+    width: 50%;
+    background: linear-gradient(to left, var(--highlighFontColor), #5d5beb);
+    border-top-right-radius: 20px;
+    border-left: 2px solid #bbbafc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+    transition: .6s;
+}
+
+.ct-tabview .tab-nav div {
+    flex: 1;
+    flex-basis: 100px;
+    transition: .6s;
+    cursor: pointer;
+}
+
+.ct-tabview .tab-nav div:hover {
+    background-color: #7d7bee;
+}
+
+.ct-tabview .tab-content {
+    background-color: #3d3ba3;
+    height: 90vh;
+    border: 4px solid var(--highlighFontColor);
+    border-radius: 20px;
+    margin: 0px 20px;
+    padding: 10px 20px;
+    color: white;
+    display: block;
+    overflow-y: scroll;
+}
+
+thead tr td {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+tbody {
+    color: white;
+}
+
+tbody tr {
+    transition: .6s;
+}
+
+tbody tr:hover {
+    background-color: #7674d3;
+}
+
+
+
+input[type='radio']{
+    margin: 0px 10px;
+}
